@@ -1,0 +1,25 @@
+# Core Machine Learning & Fine-Tuning
+torch
+transformers
+datasets
+peft
+accelerate
+
+# Experiment Tracking & MLOps
+mlflow
+
+# Cloud Storage & AWS
+boto3
+s3fs
+python-dotenv
+
+# Data Processing & Evaluation
+pandas
+numpy
+scikit-learn
+tqdm
+kagglehub
+
+# Jupyter Notebook Environment
+ipykernel
+jupyter
