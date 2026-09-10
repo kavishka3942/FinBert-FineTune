@@ -34,3 +34,38 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# MLflow & Experiment Tracking
+mlruns/
+mlartifacts/
+mlflow.db
+wandb/
+runs/
+lightning_logs/
+
+# Model Weights & Artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+*.h5
+*.tflite
+checkpoint-*/
+checkpoints/
+results*/
+outputs/
+models/
+
+# Hugging Face & Framework Caches
+.cache/
+hf_cache/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+results_lora_all_linear
